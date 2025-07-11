@@ -4,54 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Télécharger la vidéo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2em;
-      max-width: 600px;
-      margin: auto;
-      background: #f9f9f9;
-      color: #333;
-    }
-    video {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    }
-    a.download-link {
-      display: inline-block;
-      margin-top: 1em;
-      padding: 0.7em 1em;
-      background: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-    a.download-link:hover {
-      background: #0056b3;
-    }
-    .notice {
-      margin-top: 1em;
-      font-size: 0.95em;
-      color: #666;
-    }
-  </style>
 </head>
 <body>
   <h1>🎬 Télécharger la vidéo</h1>
-  
-  <video controls src="https://killianspline.github.io/glbt-test/test.mp4" preload="metadata" poster="" playsinline></video>
+
+  <video controls src="test.mp4" style="width:100%; max-width:600px;"></video>
 
   <p>
-    👉 <a class="download-link" href="https://killianspline.github.io/glbt-test/test.mp4" download>Télécharger la vidéo</a>
+    👉 <a href="test.mp4" download>Télécharger la vidéo</a>
   </p>
 
-  <p class="notice">
-    📱 <strong>Sur iPhone</strong> : appuyez sur le bouton de partage (⬆️) puis <strong>"Enregistrer la vidéo"</strong> pour l'ajouter à l’app Photos.
+  <p style="font-size: 0.9em; color: #555;">
+    📱 Sur iPhone : appuyez sur le bouton de partage (⬆️), puis <strong>Enregistrer la vidéo</strong>
   </p>
-  
-  <p class="notice">
-    📲 <strong>Sur Android</strong> : la vidéo sera généralement ajoutée automatiquement à votre galerie après téléchargement.
+  <p style="font-size: 0.9em; color: #555;">
+    📲 Sur Android : la vidéo sera généralement ajoutée automatiquement à la galerie.
   </p>
 </body>
 </html>
